@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-- name: danu23_LiveDo23a
+- name: danu23_LiveDo23b
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-- name: danu23_LiveDo23a
+- name: danu23_LiveDo23c
   type: trojan
   server: beacon.liveon.id
   port: 443
