@@ -1,4 +1,30 @@
 proxies:
+- name: DanuNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 55349efa-6b40-4225-9158-946a3e3e07eb
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
+- name: DanuRmWeb_LiveRmWeb_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  udp: true
+  sni: vpnrdfs1ov.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpnrdfs1ov.scpotato.me
 - name: Nana_LiveDO_1
   type: trojan
   server: circles.asia
@@ -38,3 +64,16 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+- name: DanuBiznet_LiveBiznet_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
+  udp: true
+  sni: vpn46tnyyt.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpn46tnyyt.scpotato.me
