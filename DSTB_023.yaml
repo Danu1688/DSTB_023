@@ -1,30 +1,69 @@
 proxies:
-- name: NanaNusa_LiveNusa_1
+- name: NanaNusa_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: c695a9e9-4431-4bfb-995f-d2d82a927614
+  password: f46a0818-6896-4d14-b1f9-5c22c06c0746
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: DanuRmWeb_LiveRmWeb_1
+      Host: nusa.dstb.cloud
+- name: NanaNusa_Live_IP2
   type: trojan
-  server: beacon.liveon.id
+  server: 104.16.143.190
   port: 443
-  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  password: f46a0818-6896-4d14-b1f9-5c22c06c0746
   udp: true
-  sni: vpnrdfs1ov.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpnrdfs1ov.scpotato.me
+      Host: nusa.dstb.cloud
+- name: NanaNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: f46a0818-6896-4d14-b1f9-5c22c06c0746
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NanaNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: f46a0818-6896-4d14-b1f9-5c22c06c0746
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NanaNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: f46a0818-6896-4d14-b1f9-5c22c06c0746
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: Nana_LiveDO_1
   type: trojan
   server: circles.asia
@@ -64,16 +103,3 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuBiznet_LiveBiznet_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
-  udp: true
-  sni: vpn46tnyyt.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpn46tnyyt.scpotato.me
